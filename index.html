@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Making of a Champion</title>
+    <link rel="icon" type="image/x-icon" href="tmc logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#" onclick="window.scrollTo(0, 0); return false;">
+                    <img src="tmc logo.png" alt="TMC Logo" class="logo-img" title="Back to Home">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="window.scrollTo(0, 0); return false;">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>The Making of a Champion Gymnastics Academy</h1>
+                    <p>Building Champions Through Dedication and Excellence</p>
+                    <a href="#programs" class="cta-button">Join Our Programs</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" class="section">
+            <h2>Our Programs</h2>
+            <div class="program-cards">
+                <div class="card" onclick="this.classList.toggle('active')">
+                    <i class="fas fa-child"></i>
+                    <h3>Recreational Gymnastics</h3>
+                    <p class="short-desc">Fun and foundational classes for all ages</p>
+                    <p class="detailed-desc">Designed for beginners and enthusiasts, our recreational program builds strength, flexibility, and coordination through fun, engaging classes. It's the perfect starting point for gymnasts of all skill levels, from toddlers to teens.</p>
+                    <div class="click-hint">Click to read more</div>
+                </div>
+                <div class="card" onclick="this.classList.toggle('active')">
+                    <i class="fas fa-medal"></i>
+                    <h3>Competitive Team</h3>
+                    <p class="short-desc">Advanced training for competitive athletes from Level 1 and up</p>
+                    <p class="detailed-desc">This program is tailored for gymnasts aiming to compete at local, regional, and national levels. With structured progression through competitive levels, athletes receive intensive coaching, skill development, and performance preparation.</p>
+                    <div class="click-hint">Click to read more</div>
+                </div>
+                <div class="card" onclick="this.classList.toggle('active')">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>DepEd Team</h3>
+                    <p class="short-desc">Focused training for Department of Education (DepEd) gymnastics competitions</p>
+                    <p class="detailed-desc">Our DepEd Team prepares student-athletes specifically for participation in school-based and interschool gymnastics competitions under the Department of Education. This includes technical training, routine perfection, and competition readiness.</p>
+                    <div class="click-hint">Click to read more</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="branches" class="section">
+            <h2>Our Branches</h2>
+            <div class="branches-grid">
+                <div class="branch-card" onclick="this.classList.toggle('active')">
+                    <div class="branch-basic-info">
+                        <h3>Malolos City</h3>
+                        <p class="branch-name"><strong>Branch:</strong> JCAS Gymnastics</p>
+                        <div class="address-block">
+                            <p><strong>Address:</strong></p>
+                            <p>112 Lucero St, Malolos, 3000 Bulacan</p>
+                        </div>
+                        <p class="short-desc">Click to view class schedule</p>
+                    </div>
+                    <div class="schedule-details">
+                        <h4>Schedule:</h4>
+                        <p><strong>Days:</strong> Monday, Wednesday, Friday</p>
+                        <p><strong>Timeslots:</strong></p>
+                        <ul>
+                            <li>1:00 pm - 2:30 pm</li>
+                            <li>2:30 pm - 3:30 pm</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="branch-card" onclick="this.classList.toggle('active')">
+                    <div class="branch-basic-info">
+                        <h3>Baliwag City</h3>
+                        <p class="branch-name"><strong>Branch:</strong> MDSF Gymnastics</p>
+                        <div class="address-block">
+                            <p><strong>Address:</strong></p>
+                            <p>090 Benigno S. Aquino Avenue, Baliwag, 3006 Bulacan</p>
+                        </div>
+                        <p class="short-desc">Click to view class schedule</p>
+                    </div>
+                    <div class="schedule-details">
+                        <h4>Schedule:</h4>
+                        <p><strong>Days:</strong> Tuesday, Thursday, Saturday</p>
+                        <p><strong>Timeslots:</strong></p>
+                        <ul>
+                            <li>9:00 am - 10:30 am</li>
+                            <li>10:30 am - 12:00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="branch-card" onclick="this.classList.toggle('active')">
+                    <div class="branch-basic-info">
+                        <h3>Meycauayan City</h3>
+                        <p class="branch-name"><strong>Branch:</strong> Trinitas Gymnastics</p>
+                        <div class="address-block">
+                            <p><strong>Address:</strong></p>
+                            <p>Jupiter St., 3A Meycauayan Camalig, 3020 Bulacan</p>
+                        </div>
+                        <p class="short-desc">Click to view class schedule</p>
+                    </div>
+                    <div class="schedule-details">
+                        <h4>Schedule:</h4>
+                        <p><strong>Days:</strong> Monday, Tuesday, Friday</p>
+                        <p><strong>Timeslots:</strong></p>
+                        <ul>
+                            <li>9:00 am - 10:30 am</li>
+                            <li>10:30 am - 12:00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="branch-card" onclick="this.classList.toggle('active')">
+                    <div class="branch-basic-info">
+                        <h3>Angeles City</h3>
+                        <p class="branch-name"><strong>Branch:</strong> WIS Gymnastics</p>
+                        <div class="address-block">
+                            <p><strong>Address:</strong></p>
+                            <p>21-2 Fil-Am Friendship Hwy, Porac, Pampanga</p>
+                        </div>
+                        <p class="short-desc">Click to view class schedule</p>
+                    </div>
+                    <div class="schedule-details">
+                        <h4>Schedule:</h4>
+                        <p><strong>Days:</strong> Monday, Wednesday, Friday</p>
+                        <p><strong>Timeslots:</strong></p>
+                        <ul>
+                            <li>9:00 am - 10:30 am</li>
+                            <li>10:30 am - 12:00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="branch-card" onclick="this.classList.toggle('active')">
+                    <div class="branch-basic-info">
+                        <h3>Bacolor Pampanga</h3>
+                        <p class="branch-name"><strong>Branch:</strong> Bacolor Gymnastics</p>
+                        <div class="address-block">
+                            <p><strong>Address:</strong></p>
+                            <p>Don Bosco Homes Bacolor Pampanga</p>
+                        </div>
+                        <p class="short-desc">Click to view class schedule</p>
+                    </div>
+                    <div class="schedule-details">
+                        <h4>Schedule:</h4>
+                        <p><strong>Days:</strong> Tuesday, Thursday, Saturday</p>
+                        <p><strong>Timeslots:</strong></p>
+                        <p><em>For Beginners:</em></p>
+                        <ul>
+                            <li>8:00 am - 9:30 am</li>
+                            <li>9:30 am - 11:00 am</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>At TMC - The Making of a Champion, we are dedicated to developing not just skilled gymnasts, but true champions in both sport and life. Our state-of-the-art facilities and experienced coaches work together to nurture talent, build confidence, and achieve excellence.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>tmcgymnastic@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://www.facebook.com/TMCGymnaticsAcademy" target="_blank">@TMCGymnaticsAcademy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 The Making of a Champion. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+</body>
+</html> 
